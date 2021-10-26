@@ -3,19 +3,19 @@
 jQuery(document).ready(function($){
 
 	//set animation timing
-	var animationDelay = 4500,
+	var animationDelay = 5000,
 		//loading bar effect
-		barAnimationDelay = 7000,
+		barAnimationDelay = 75000,
 		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
 		//letters effect
-		lettersDelay = 100,
+		lettersDelay = 200,
 		//type effect
-		typeLettersDelay = 300,
-		selectionDuration = 500,
+		typeLettersDelay = 500,
+		selectionDuration = 700,
 		typeAnimationDelay = selectionDuration + 800,
 		//clip effect 
 		revealDuration = 1000,
-		revealAnimationDelay = 5000,
+		revealAnimationDelay = 6000,
   	stopAnimation = false;
 	
 	initHeadline();
