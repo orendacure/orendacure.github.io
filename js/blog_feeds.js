@@ -37,7 +37,7 @@ $(function () {
 mediumPromise.then(function()
     {
         //Pagination
-        pageSize = 21;
+        pageSize = 22;
 
         var pageCount = $(".card").length / pageSize;
 
